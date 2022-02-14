@@ -20,5 +20,12 @@
         <module>hbcloud-provider-stock-api</module>
         <module>hbcloud-provider-user-api</module>
     </modules>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

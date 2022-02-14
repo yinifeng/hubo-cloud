@@ -12,5 +12,16 @@
     <artifactId>hbcloud-provider-user</artifactId>
     <packaging>jar</packaging>
     <description>hubo的用户微服务</description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>com.hubo.hbcloud.provider.api</groupId>
+            <artifactId>hbcloud-provider-user-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hubo.hbcloud.provider.api</groupId>
+            <artifactId>hbcloud-provider-stock-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

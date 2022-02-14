@@ -13,5 +13,10 @@
     <packaging>jar</packaging>
     <description>hubo的库存微服务</description>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.hubo.hbcloud.provider.api</groupId>
+            <artifactId>hbcloud-provider-stock-api</artifactId>
+        </dependency>
+    </dependencies>
 </project>
