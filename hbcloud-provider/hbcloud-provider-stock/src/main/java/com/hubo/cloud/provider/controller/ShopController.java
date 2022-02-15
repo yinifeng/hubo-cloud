@@ -1,6 +1,7 @@
 package com.hubo.cloud.provider.controller;
 
 import com.hubo.cloud.api.stock.ShopApi;
+import com.hubo.cloud.api.stock.domain.Student;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
@@ -19,5 +20,15 @@ public class ShopController implements ShopApi {
         }
 
         return "Hello Stock " + name;
+    }
+
+    @Override
+    public void saveStudent(Student student) {
+        try {
+            TimeUnit.SECONDS.sleep(student.getNo());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("--->feign save stundet = " + student);
     }
 }
