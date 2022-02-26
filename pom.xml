@@ -42,7 +42,7 @@
         <fastjson.version>1.2.58</fastjson.version>
         <lombok.version>1.18.4</lombok.version>
         <hutool.version>4.6.1</hutool.version>
-        <common-pool.version>2.6.2</common-pool.version>
+        <!--<common-pool.version>2.6.2</common-pool.version>-->
         <swagger.version>2.9.2</swagger.version>
         <swagger-ui.version>1.9.5</swagger-ui.version>
         <guava.version>26.0-jre</guava.version>
@@ -134,11 +134,13 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <!--
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-pool2</artifactId>
                 <version>${common-pool.version}</version>
             </dependency>
+            -->
 
             <!-- swagger-bootstrap-ui -->
             <dependency>
