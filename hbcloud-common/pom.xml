@@ -18,6 +18,7 @@
         <module>hbcloud-common-core</module>
         <module>hbcloud-common-base</module>
         <module>hbcloud-common-util</module>
+        <module>hbcloud-common-minio</module>
     </modules>
 
 
